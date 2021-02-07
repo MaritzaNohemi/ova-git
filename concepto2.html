@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OVA Git y Github</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<header>
+    <img src="img/logo.png" style="width: 20%;" alt="">
+    <ul id="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li>Conceptos
+            <ul>
+                <li><a href="concepto1.html">Git y GitHub</a>
+                </li>
+                <li><a href="concepto2.html">Manejo de Repositorios</a></li>
+            </ul>
+        </li>
+        <li>Recursos
+            <ul>
+                <li><a href="recurso1.html">Usuario Github</a></li>
+                <li><a href="recurso2.html">Repositorios</a></li>
+            </ul>
+        </li>
+        <li>Autoevaluación
+         <ul>
+            <li>
+                <a href="autoeval1.html">
+                    Autoevaluación 1
+                </a>   
+            </li>
+           <li>
+               <a href="autoeval2.html">Autoevaluación 2</a>
+           </li>
+         </ul>
+        </li>
+        <li><a href="autor.html">Autor</a></li>
+       </ul>
+    <div class="bar"> 
+        <h1>Repositorios</h1>
+    </div>
+</header>
+<main >
+    <h1>Cómo crear un repositorio</h1>
+    <p>
+        Un repositorio es como una carpeta para tu proyecto. El repositorio de tu proyecto contiene todos los archivos de tu repositorio y almacena el historial de revisión de cada archivo. También puedes debatir y administrar el trabajo de tu proyecto dentro del repositorio.
+Puedes ser propietario de repositorios individualmente o puedes compartir la propiedad de los repositorios con otras personas en una organización. (GitHub,Inc, 2021).
+Puedes crear un repositorio nuevo en tu cuenta personal o la cuenta de cualquier organización en la que tengas los permisos suficientes.
+
+    </p>
+    <p>
+        1.	En la esquina superior derecha de cualquier página, utiliza el menú desplegable  y selecciona Repositorio Nuevo.
+    </p>
+
+    <img src="img/rep/repo1.png" style="height: 300px;" alt="">
+    <br>
+    <span class="referencia" >Figure 7. Fuente Pag Web GitHub Docs	
+
+    </span>
+        <p>2.	Otra opción para crear un repositorio con la estructura del directorio y los archivos de un repositorio existente es usar el menú desplegable Elegir una plantilla y seleccionar un repositorio de plantillas. Verás repositorios de plantillas que te pertenecen a ti y a las organizaciones de las que eres miembro o bien repositorios de plantillas que has usado anteriormente. 
+
+        </p>
+        <img src="img/rep/repo2.png" alt="">
+        <br>
+        <span class="referencia">
+            Figure 8. Fuente Pag Web GitHub Docs
+        </span>
+    <p>
+        En el menú desplegable de Propietario, selecciona la cuenta en la cual quieres crear el repositorio.
+    </p>
+    <img src="img/rep/repo3.png" alt="">
+    <br>
+    <span class="referencia">
+        Figure 9. Fuente Pag Web GitHub Docs 
+    </span>
+    <p>
+        Teclea el nombre de tu repositorio, y una descripción opcional.
+    </p>
+    <img src="img/rep/repo4.png" alt="">
+    <br>
+    <span class="referencia">
+        Figure 10. Fuente Pag Web GitHub Docs 
+    </span>
+
+    <p>
+        Elige la visibilidad del repositorio
+    </p>
+    <img src="img/rep/repo5.png" alt="">
+    <br>
+    <span class="referencia">
+        Figure 11. Fuente Pag Web GitHub Docs 
+    </span>
+    <p>
+        Si no estás usando una plantilla, una serie de elementos opcionales con los que puedes completar tu repositorio en forma previa. Si estás importando un repositorio existente a GitHub, no elijas ninguna de estas opciones, ya que producirás un conflicto de fusión. Puedes agregar o crear archivos nuevos usando la interfaz de usuario o elegir agregar archivos nuevos usando luego la línea de comando. 
+    </p>
+    <ul>
+        <li>
+            Puedes crear un README, que es un documento que describe tu proyecto. 
+        </li>
+        <li>
+            Puedes crear un archivo .gitignore, que es un conjunto de reglas de ignorar. Puedes elegir agregar una licencia de software a tu proyecto. 
+        </li>
+    </ul>
+    <p>
+        Opcionalmente, si la cuenta personal o de organización que estás creando utiliza cualquier App GitHub de Mercado GitHub, selecciona cualquier app que quieras utilizar en el repositorio.
+    </p>
+    <img src="img/rep/repo6.png" alt="">
+    <br>
+    <span class="referencia">
+        Figure 12. Fuente Pag Web GitHub Docs
+
+    </span>
+    <p>
+        Da clic en Crear repositorio.
+    </p>
+    <img src="img/rep/repo7.png" alt="">
+    <br>
+    <span class="referencia">
+        Figure 13. Fuente Pag Web GitHub Docs
+    </span>
+    <h2>Cómo clonar un repositorio
+    </h2>
+
+    <p>
+        Cuando crea un repositorio en GitHub, existe como un repositorio remoto. Puede clonar su repositorio para crear una copia local en su computadora y sincronizar entre las dos ubicaciones, para que sea más fácil solucionar conflictos de combinación, agregar o eliminar archivos y enviar confirmaciones más grandes.
+    </p>
+    <p>
+        Clonar un repositorio extrae una copia integral de todos los datos del mismo que GitHub tiene en ese momento, incluyendo todas las versiones para cada archivo y carpeta para el proyecto. 
+    </p>
+    <p>
+        Puede clonar su repositorio existente o clonar el repositorio existente de otra persona para contribuir a un proyecto. Para clonar un repositorio de acuerdo a lo que indica el sitio oficial de GitHub (GitHub, Inc, 2021), se puede clonar el repositorio así:
+    </p>
+    <ul>
+        <li>
+            Utilizando línea de comando
+        </li>
+        <li>
+            Clonar un repositorio a Github Desktop
+        </li>
+    </ul>
+    <h3>Utilizando línea de comando
+    </h3>
+    <ol>
+        <li>
+            En GitHub, visita la página principal del repositorio.
+        </li>
+        <li>
+            Sobre la lista de archivos, da clic en  Código.
+        </li>
+        <img src="img/rep/repo8.png" alt="">
+        <br>
+        <span class="referencia">
+            Figure 14. Fuente Pag Web GitHub Docs
+        </span>
+        <li>
+            Para clonar el repositorio usando HTTPS, en "Clonar con HTTPS", haga clic en la imagen del disquete. Para clonar el repositorio con una clave SSH, incluido un certificado emitido por la autoridad de certificación SSH de su organización, haga clic en Usar SSH y luego haga clic en en la imagen del disquete. Para clonar un repositorio usando CLI de GitHub, haga clic en Usar CLI de GitHub , luego haga clic en .
+
+        </li>
+        <img src="img/rep/repo9.png" alt="">
+        <br>
+        <span class="referencia">
+            Figure 15. Fuente Pag Web GitHub Docs
+        </span>
+        <li>
+            Abre la Git Bash.
+        </li>
+        <li>
+            Cambia el directorio de trabajo actual a la ubicación en donde quieres clonar el directorio.
+        </li>
+        <li>
+            Escribe git clone, y luego pega la URL que copiaste antes.
+        </li>
+        <li>
+            Presiona Enter para crear tu clon local.
+        </li>
+    </ol>
+    <h2>
+        Cómo hacer un commit (confirmaciones)
+    </h2>
+    <p>
+        Puedes guardar grupos pequeños de cambios significativos como confirmaciones.
+    </p>
+    <p>
+        De forma similar al guardar un archivo que se editó, una confirmación registra los cambios en uno o más archivos en tu rama. Git asigna una ID única a cada comentario, a la cual se le llama SHA o hash, la cual identifica:
+    </p>
+    <ul>
+        <li>
+            Los cambios específicos
+        </li>
+        <li>
+            Cuando se realizaron los cambios
+        </li>
+        <li>
+            Quién creó los cambios
+        </li>
+    </ul>
+    <p>
+        Cuando realizas una confirmación, debes incluir un mensaje de confirmación que describa brevemente los cambios.
+    </p>
+    <p>
+        Puedes agregar un co-autor en cualquier confirmación en la que colabores. También puedes crear una confirmación en nombre de una organización. El rebase te permite cambiar varias confirmaciones y puede modificar el orden de éstas en tu línea de tiempo. 
+    </p>
+    <p>
+        Para confirmar los cambios en el repositorio voy a realizar un commit, en el campo Summary escribe un resumen o título del commit y en el campo Description escribe la descripción del commit y para continuar haz clic en el botón Commit to master. Nota: master es la rama que se crea por defecto en un repositorio Git. (RENE, 2017)
+    </p>
+    <img src="img/rep/repo10.png" alt="">
+    <br>
+    <span class="referencia">
+        Figure 16. Fuente Pag Web GitHub Docs
+    </span>
+
+    <h2>
+        Cómo hacer push
+    </h2>
+    <p>
+        Una vez realizado el commit si algo salio mal GitHub Desktop te da la posibilidad de revertir este commit haciendo clic en la opción Undo de la parte inferior, pero si todo esta correcto y como es la primera vez que agregamos estos archivos haz clic en el botón Publish. Nota: al hacer clic en el botón Publish se esta haciendo un push.  (RENE, 2017)
+    </p>
+    <img src="img/rep/repo11.png" alt="">
+    <br>
+    <span class="referencia">
+        Figure 17. Fuente Pag Web GitHub Docs
+    </span>
+    <p>
+        push: envía los cambios de tu repositorio local a tu repositorio remoto.
+    </p>
+
+        <h2>Referencias</h2>
+    <ul>
+        <li><span class="referencia">
+            GitHub, Inc. (2021). GitHub docs. Obtenido de Clonar un repositorio desde GitHub: https://docs.github.com/es/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github
+        </span></li>
+        <li><span class="referencia">
+            GitHub,Inc. (2021). GitHub Docs, Enterprise Server 3.0. Obtenido de Acerca de los repositorios: https://docs.github.com/es/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github
+        </span></li>
+        <li><span class="referencia">
+            KINSTA. (8https://kinsta.com/es/base-de-conocimiento/que-es-github/ de Agosto de 2020). ¿Qué es GitHub? Una Guía para Principiantes sobre GitHub.
+        </span></li>
+        <li><span class="referencia">
+            KINSTA. (29 de Diciembre de 2020). Git vs Github: ¿Cuál es la Diferencia y cómo Empezar? Obtenido de https://kinsta.com/es/base-de-conocimiento/git-vs-github/#una-introduccin-a-git-y-al-control-de-versiones
+        </span></li>
+        <li><span class="referencia">
+            Pagina web de GIT. (s.f.). GIT- control-de-versión-rápido. Obtenido de https://git-scm.com/
+        </span></li>
+        <li>
+            <span class="referencia">
+
+            RENE, L. (14 de Enero de 2017). LUIS MAS DEV. Obtenido de Instalación y Uso de GitHub Desktop: https://luismasdev.com/instalacion-y-uso-de-github-desktop/
+            Straub, S. C.-B. (2014). Pro Git (2da Edición ed.). Apress. Obtenido de https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+            </span>
+        </li>
+
+
+    </ul>
+</main>
+<footer>
+    <p>Universidad Nacional Abierta y a Distancia.  
+        <br>
+        Innovación y excelencia para todos 
+        <br>
+        Secretaría general 
+        <br>
+        Calle 14 sur No 14-23 piso 6 
+        <br>Línea nacional 018000-115223. Vigila MinEducación.
+        <br>
+        secretaria@unad.edu.co
+        <br>
+        Bogotá D.C. - Colombia <br> 
+        
+        <br></p>
+    
+    <img src="img/certificado.png" style="height: 100px; float: right;top:0px;" alt="">
+    <img src="img/certificado2.png" style="height: 100px; float: right;top:0px;" alt="">
+</footer>
+<body>
+    
+</body>
+
+</body>
+</html>

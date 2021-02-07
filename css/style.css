@@ -121,4 +121,8 @@ footer{
        margin: 0;
    }
 
-   
+   span.referencia{
+       text-align: left;
+       color: silver;
+       font-style: italic;
+   }
